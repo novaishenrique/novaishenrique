@@ -1,33 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Sequência atual de 2 dias e maior sequência de 2 dias">
   <title>Sequência atual de 2 dias e maior sequência de 2 dias</title>
   <style>
-    .t { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ff8fb1; }
-    .r { font: 400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6e1f5; }
-    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffd27a; }
-    .n { font: 700 28px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6e1f5; }
-    .p { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6e1f5; opacity: .75; }
+    .t { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; }
+    .r { font: 600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #d9d9d9; }
+    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; }
+    .n { font: 700 28px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffffff; }
+    .p { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #d9d9d9; opacity: .7; }
+    .x { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #d9d9d9; opacity: .8; }
     .a { animation: surgir .8s ease-out both; }
     @keyframes surgir { from { opacity: 0 } to { opacity: 1 } }
+    .anel { animation: encher 1.2s ease-out both; }
   </style>
-  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#1a1b2e" stroke="#3b2f5c"/>
-  <text class="t" x="25" y="35">Dias seguidos de contribuição</text>
-  <line x1="165" y1="55" x2="165" y2="175" stroke="#3b2f5c"/>
-  <line x1="330" y1="55" x2="330" y2="175" stroke="#3b2f5c"/>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="#000000" stroke="#e4e2e2"/>
+  <text class="t" x="25" y="35" text-anchor="start"></text>
+  <line x1="165" y1="28" x2="165" y2="170" stroke="#e4e2e2" stroke-opacity=".9"/>
+  <line x1="330" y1="28" x2="330" y2="170" stroke="#e4e2e2" stroke-opacity=".9"/>
   <g class="a" text-anchor="middle">
-    <text class="n" x="82" y="110">66</text>
-    <text class="r" x="82" y="138">Contribuições</text>
-    <text class="p" x="82" y="158">desde 17 ago 2026</text>
+    <text class="n" x="82" y="92">65</text>
+    <text class="r" x="82" y="122">Total de</text>
+    <text class="r" x="82" y="139">contribuições</text>
+    <text class="p" x="82" y="162">17 ago 2026 – hoje</text>
   </g>
-  <g class="a" style="animation-delay:.2s" transform="translate(247 100)" text-anchor="middle">
-    <circle r="38" fill="none" stroke="#3b2f5c" stroke-width="5"/>
-    <circle r="38" fill="none" stroke="#ff6e96" stroke-width="5" stroke-linecap="round" stroke-dasharray="238.8" stroke-dashoffset="0.0" transform="rotate(-90)"/>
+  <g class="a" style="animation-delay:.2s" transform="translate(247 80)" text-anchor="middle">
+    <circle r="38" fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="212.8 26" stroke-dashoffset="-13.0" transform="rotate(-90)"/>
+    <path d="M0 -50 C 7 -44 8 -38 4 -33 C 3 -37 1 -38 -1 -39 C 0 -35 -3 -33 -5 -31 C -9 -36 -7 -44 0 -50 Z" fill="#ffffff"/>
     <text class="n" y="10">2</text>
-    <text class="r" y="62" style="fill:#ffd27a;font-weight:700">Sequência atual</text>
-    <text class="p" y="80">desde 13 nov 2026</text>
+    <text class="r" y="66" style="fill:#ffffff;font-weight:700">Sequência atual</text>
+    <text class="p" y="84">desde 13 nov 2026</text>
   </g>
   <g class="a" style="animation-delay:.4s" text-anchor="middle">
-    <text class="n" x="412" y="110">2</text>
-    <text class="r" x="412" y="138">Maior sequência</text>
-    <text class="p" x="412" y="158">2 nov 2026 – 3 nov 2026</text>
+    <text class="n" x="412" y="92">2</text>
+    <text class="r" x="412" y="122">Maior</text>
+    <text class="r" x="412" y="139">sequência</text>
+    <text class="p" x="412" y="162">2 nov 2026 – 3 nov 2026</text>
   </g>
 </svg>
