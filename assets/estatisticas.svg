@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Estatísticas de novaishenrique: 57 commits, 6 repositórios públicos">
+  <title>Estatísticas de novaishenrique: 57 commits, 6 repositórios públicos</title>
+  <style>
+    .t { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ff8fb1; }
+    .r { font: 400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6e1f5; }
+    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #ffd27a; }
+    .n { font: 700 28px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6e1f5; }
+    .p { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6e1f5; opacity: .75; }
+    .a { animation: surgir .8s ease-out both; }
+    @keyframes surgir { from { opacity: 0 } to { opacity: 1 } }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#1a1b2e" stroke="#3b2f5c"/>
+  <text class="t" x="25" y="35">Estatísticas no GitHub</text>
+  <g class="a" style="animation-delay:0.00s"><circle cx="32" cy="65" r="4" fill="#ff6e96"/><text class="r" x="45" y="70">Commits:</text><text class="v" x="230" y="70">57</text></g>
+  <g class="a" style="animation-delay:0.12s"><circle cx="32" cy="90" r="4" fill="#ff6e96"/><text class="r" x="45" y="95">Pull requests:</text><text class="v" x="230" y="95">1</text></g>
+  <g class="a" style="animation-delay:0.24s"><circle cx="32" cy="115" r="4" fill="#ff6e96"/><text class="r" x="45" y="120">Issues:</text><text class="v" x="230" y="120">1</text></g>
+  <g class="a" style="animation-delay:0.36s"><circle cx="32" cy="140" r="4" fill="#ff6e96"/><text class="r" x="45" y="145">Repositórios públicos:</text><text class="v" x="230" y="145">6</text></g>
+  <g class="a" style="animation-delay:0.48s"><circle cx="32" cy="165" r="4" fill="#ff6e96"/><text class="r" x="45" y="170">Contribuiu para:</text><text class="v" x="230" y="170">1</text></g>
+  <g transform="translate(395 105)">
+    <circle r="40" fill="none" stroke="#3b2f5c" stroke-width="6"/>
+    <circle r="40" fill="none" stroke="#ff6e96" stroke-width="6" stroke-linecap="round" stroke-dasharray="251.3" stroke-dashoffset="62.8" transform="rotate(-90)"/>
+    <text class="n" text-anchor="middle" y="9">66</text>
+    <text class="p" text-anchor="middle" y="62">contribuições</text>
+  </g>
+</svg>
