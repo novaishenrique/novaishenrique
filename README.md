@@ -101,6 +101,8 @@ Olá! Eu sou o **Henrique Novais de Oliveira**, estudante de **Gestão da Tecnol
   </tr>
 </table>
 
+Todos do **2º semestre de 2026** do curso de Gestão da Tecnologia da Informação na UNICID.
+
 | Projeto | Disciplina | O que é | Tecnologias |
 | :--- | :--- | :--- | :--- |
 | [**Banco de Dados da ONG**](https://github.com/novaishenrique/projeto-banco-de-dados-ong) | Modelagem de Banco de Dados<br><sub>Prof. Cid Rodrigues · em grupo</sub> | Banco de dados para uma ONG real da Mooca: 19 tabelas, DER e modelo lógico, regras de negócio e LGPD, script testado a cada push | MySQL · GitHub Actions |
@@ -111,7 +113,7 @@ Olá! Eu sou o **Henrique Novais de Oliveira**, estudante de **Gestão da Tecnol
 
 <h2 align="center">🏆 <i>Hackathon WECTI 2026</i></h2>
 
-Participei do **Hackathon WECTI 2026** da UNICID na equipe do **[PEEK](https://github.com/novaishenrique/projeto-PEEK)**, com a **Dor 1: Estoque Inteligente & Omnichannel**.
+No 2º semestre, participei do **Hackathon WECTI 2026** da UNICID na equipe do **[PEEK](https://github.com/novaishenrique/projeto-PEEK)**, com a **Dor 1: Estoque Inteligente & Omnichannel**.
 
 > **A nota saiu. O estoque não baixou. E o cliente já comprou.**
 
