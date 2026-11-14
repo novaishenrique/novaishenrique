@@ -5,6 +5,8 @@
 <br>
 
 <a href="https://www.linkedin.com/in/henrique-novais-de-oliveira-3398b640a/"><img src="https://img.shields.io/badge/LinkedIn-Henrique_Novais-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.instagram.com/novaishenriquee/"><img src="https://img.shields.io/badge/Instagram-@novaishenriquee-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="mailto:henriqueisabella11@gmail.com"><img src="https://img.shields.io/badge/E--mail-henriqueisabella11@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
 <img src="https://komarev.com/ghpvc/?username=novaishenrique&label=Visitas&color=7a2f63&style=flat-square" alt="Visitas ao perfil">
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnovaishenrique&query=%24.public_repos&label=Reposit%C3%B3rios&color=ff6e96&style=flat-square" alt="Repositórios públicos">
 <img src="https://img.shields.io/github/followers/novaishenrique?label=Seguidores&color=ffd27a&style=flat-square" alt="Seguidores">
@@ -91,6 +93,12 @@ Meu objetivo é unir essa prática com a TI para atuar com **inovação, otimiza
 
 ---
 
-📫 **Vamos conversar?** Me encontre no [LinkedIn](https://www.linkedin.com/in/henrique-novais-de-oliveira-3398b640a/).
+<h2>📫 Contato</h2>
+
+<a href="https://www.linkedin.com/in/henrique-novais-de-oliveira-3398b640a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.instagram.com/novaishenriquee/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="mailto:henriqueisabella11@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+
+[LinkedIn](https://www.linkedin.com/in/henrique-novais-de-oliveira-3398b640a/) · [@novaishenriquee](https://www.instagram.com/novaishenriquee/) · [henriqueisabella11@gmail.com](mailto:henriqueisabella11@gmail.com)
 
 </div>
