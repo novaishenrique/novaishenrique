@@ -1,0 +1,40 @@
+name: Cartões do perfil
+
+# Atualiza os cartões de estatísticas (assets/*.svg) com os dados do GitHub
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/cartoes.yml"
+  schedule:
+    - cron: "17 9 * * *"   # todo dia, 6h17 em São Paulo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Gerar os cartões
+        env:
+          # Se quiser contar também contribuições privadas, crie o segredo CARTOES_TOKEN
+          GITHUB_TOKEN: ${{ secrets.CARTOES_TOKEN || secrets.GITHUB_TOKEN }}
+          USUARIO: ${{ github.repository_owner }}
+        run: python3 .github/scripts/gerar_cartoes.py
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/estatisticas.svg assets/linguagens.svg assets/sequencia.svg
+          if git diff --cached --quiet; then
+            echo "Nada mudou"
+          else
+            git commit -m "Atualiza os cartões de estatísticas"
+            git push
+          fi

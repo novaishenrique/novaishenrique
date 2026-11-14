@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Olá, eu sou o Henrique</title>
+  <desc id="descricao">Banner com pôr do sol sobre montanhas e pinheiros. Estudante de Gestão da Tecnologia da Informação na UNICID.</desc>
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1b3a"/>
+      <stop offset="0.45" stop-color="#5b2a6e"/>
+      <stop offset="0.75" stop-color="#c2456b"/>
+      <stop offset="1" stop-color="#ff9a5a"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe3a1" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff9a5a" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .estrela { fill: #ffffff; animation: piscar 3s ease-in-out infinite; }
+      .e2 { animation-delay: 1s; } .e3 { animation-delay: 2s; }
+      @keyframes piscar { 0%, 100% { opacity: .25 } 50% { opacity: 1 } }
+      .sol { animation: pulsar 6s ease-in-out infinite; transform-origin: 600px 250px; }
+      @keyframes pulsar { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.06) } }
+      .titulo { font: 700 40px 'Courier New', Consolas, monospace; fill: #ffffff; }
+      .subtitulo { font: 600 19px 'Courier New', Consolas, monospace; fill: #ffe8f0; }
+      .entrar { animation: entrar 1.6s ease-out both; }
+      .entrar2 { animation: entrar 1.6s ease-out .5s both; }
+      @keyframes entrar { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#ceu)"/>
+
+  <g>
+    <circle class="estrela" cx="90" cy="40" r="1.8"/>
+    <circle class="estrela e2" cx="210" cy="78" r="1.4"/>
+    <circle class="estrela e3" cx="330" cy="30" r="1.6"/>
+    <circle class="estrela" cx="470" cy="62" r="1.2"/>
+    <circle class="estrela e2" cx="760" cy="38" r="1.7"/>
+    <circle class="estrela e3" cx="880" cy="70" r="1.3"/>
+    <circle class="estrela" cx="1010" cy="34" r="1.8"/>
+    <circle class="estrela e2" cx="1130" cy="66" r="1.4"/>
+  </g>
+
+  <g class="sol">
+    <circle cx="600" cy="250" r="120" fill="url(#brilho)"/>
+    <circle cx="600" cy="250" r="54" fill="#ffd27a"/>
+  </g>
+
+  <path d="M0 250 L120 190 L210 230 L330 160 L450 225 L560 185 L690 235 L800 170 L930 230 L1050 180 L1200 240 L1200 320 L0 320 Z" fill="#7a2f63" opacity="0.85"/>
+  <path d="M0 275 L150 225 L280 262 L420 215 L560 268 L700 222 L840 266 L980 220 L1110 258 L1200 236 L1200 320 L0 320 Z" fill="#4b1f4f"/>
+  <path d="M0 300 L200 268 L380 296 L600 262 L820 296 L1000 270 L1200 292 L1200 320 L0 320 Z" fill="#2a1233"/>
+
+  <g fill="#1a0b22">
+    <path d="M60 320 L80 250 L100 320 Z M70 290 L80 240 L90 290 Z"/>
+    <path d="M120 320 L135 270 L150 320 Z"/>
+    <path d="M1050 320 L1072 245 L1094 320 Z M1060 285 L1072 236 L1084 285 Z"/>
+    <path d="M1110 320 L1126 268 L1142 320 Z"/>
+    <path d="M985 320 L998 280 L1011 320 Z"/>
+  </g>
+
+  <text class="titulo entrar" x="600" y="118" text-anchor="middle">Olá, eu sou o Henrique</text>
+  <text class="subtitulo entrar2" x="600" y="156" text-anchor="middle">Estudante de Gestão da TI na UNICID · processos, dados e governança</text>
+</svg>
