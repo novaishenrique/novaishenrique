@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/estatisticas.svg assets/linguagens.svg assets/sequencia.svg
+          git add assets/estatisticas.svg assets/sequencia.svg assets/grafico.svg assets/linguagens.svg
           if git diff --cached --quiet; then
             echo "Nada mudou"
           else
