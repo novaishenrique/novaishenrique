@@ -21,7 +21,7 @@ Olá! Eu sou o **Henrique Novais de Oliveira**, estudante de **Gestão da Tecnol
   🎓 <b><i>Estudando Gestão da TI na UNICID (2º semestre)</i></b><br>
   💼 <b><i>Assistente administrativo na OM30</i></b><br>
   📦 <b><i>4 anos em rotinas administrativas e de logística</i></b><br>
-  🏆 <b><i>Hackathon WECTI 2026 com a equipe do PEEK</i></b><br>
+  🏆 <b><i>Hackathon WECTI 2026 com a equipe do <a href="https://github.com/novaishenrique/projeto-PEEK">PEEK</a></i></b><br>
   📍 <b><i>São Paulo, Brasil</i></b>
 </p>
 
@@ -96,6 +96,9 @@ Olá! Eu sou o **Henrique Novais de Oliveira**, estudante de **Gestão da Tecnol
     <td width="50%"><a href="https://github.com/novaishenrique/projeto-AlugaForte"><img src="assets/projetos/alugaforte.jpg" alt="AlugaForte"></a></td>
     <td width="50%"><a href="https://github.com/novaishenrique/projeto-caixa-eletronico"><img src="assets/projetos/caixa.jpg" alt="Caixa Eletrônico em C"></a></td>
   </tr>
+  <tr>
+    <td colspan="2" align="center"><a href="https://github.com/novaishenrique/projeto-PEEK"><img src="assets/projetos/peek.jpg" alt="PEEK, Hackathon WECTI 2026" width="50%"></a></td>
+  </tr>
 </table>
 
 | Projeto | Disciplina | O que é | Tecnologias |
@@ -104,8 +107,26 @@ Olá! Eu sou o **Henrique Novais de Oliveira**, estudante de **Gestão da Tecnol
 | [**ALE**](https://github.com/novaishenrique/projeto-ALE) | Gestão Ágil<br><sub>Prof. Alexandre Carrocine · em grupo</sub> | Organizador de entregas acadêmicas em dois sites, feito em 4 sprints de Scrum | HTML · CSS · JavaScript · Netlify |
 | [**AlugaForte**](https://github.com/novaishenrique/projeto-AlugaForte) | Gestão Ágil<br><sub>Prof. Alexandre Carrocine · em grupo</sub> | Plataforma de locação de maquinários com seguro integrado, com UML, BPMN e backlog | HTML · CSS · JavaScript · Netlify |
 | [**Caixa Eletrônico em C**](https://github.com/novaishenrique/projeto-caixa-eletronico) | Algoritmos e Pensamento Computacional<br><sub>Prof. Carlos Eduardo Weber</sub> | Saques com validação, saldo e troco em notas e moedas, com testes automáticos | C · GCC · Portugol |
+| [**PEEK**](https://github.com/novaishenrique/projeto-PEEK) | Hackathon WECTI 2026<br><sub>UNICID · em equipe</sub> | Controle operacional para o varejo multicanal: verifica se estoque e nota fiscal realmente sincronizaram e alerta com evidências e ação | Java · Spring Boot · PostgreSQL · Next.js |
 
-**Evento:** Hackathon WECTI 2026 (UNICID), na equipe do **PEEK**, uma proposta de controle de estoque inteligente e omnichannel para pequenas e médias empresas do varejo.
+<h2 align="center">🏆 <i>Hackathon WECTI 2026</i></h2>
+
+Participei do **Hackathon WECTI 2026** da UNICID na equipe do **[PEEK](https://github.com/novaishenrique/projeto-PEEK)**, com a **Dor 1: Estoque Inteligente & Omnichannel**.
+
+> **A nota saiu. O estoque não baixou. E o cliente já comprou.**
+
+O PEEK é uma camada de controle operacional para pequenas e médias empresas do varejo que vendem em vários canais. Ele conecta **ERP, e-commerce, marketplaces e fiscal**, verifica se cada operação realmente aconteceu e orienta a próxima ação, **sem substituir o ERP**.
+
+- 📊 **Problema validado com dados reais:** 24 milhões de pequenos negócios ativos no Brasil e R$ 36,5 bi em perdas no varejo em 2024
+- 🔎 **Como funciona:** identidade do produto entre canais, orquestração de estoque e fiscal e verificação do resultado
+- 🤖 **IA só onde há ambiguidade:** alerta com evidências, causa provável e ação recomendada
+- 🤟 **Acessível em Libras:** pensado para incluir lojistas e equipes surdas
+- 🎤 **Pitch de 10 minutos** com problema, solução, demonstração, arquitetura, modelo de negócio e próximos passos
+
+<p align="center">
+  <a href="https://github.com/novaishenrique/projeto-PEEK"><img src="https://img.shields.io/badge/Ver_o_projeto-000000?style=for-the-badge&logo=github&logoColor=white" alt="Ver o projeto PEEK"></a>
+  <a href="https://github.com/novaishenrique/projeto-PEEK/blob/main/docs/PEEK_Hackathon_WECTI.pdf"><img src="https://img.shields.io/badge/Apresentação-PDF-000000?style=for-the-badge" alt="Apresentação do PEEK em PDF"></a>
+</p>
 
 <h2 align="center">🌱 <i>Aprendendo agora</i></h2>
 
