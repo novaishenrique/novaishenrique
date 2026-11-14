@@ -78,7 +78,7 @@ Meu objetivo é unir essa prática com a TI para atuar com **inovação, otimiza
 | [**Banco de dados da ONG**](https://github.com/novaishenrique/projeto-banco-de-dados-ong) | Modelagem de Banco de Dados (em grupo) | Banco de dados para uma ONG real da Mooca: 19 tabelas, DER e modelo lógico, regras de negócio e LGPD, script testado a cada push | MySQL · GitHub Actions |
 | [**ALE**](https://github.com/novaishenrique/projeto-ALE) | Atividade prática de Scrum (em grupo) | Organizador de entregas acadêmicas, desenvolvido em sprints | HTML · CSS · JavaScript · Netlify |
 | [**AlugaForte**](https://github.com/novaishenrique/projeto-AlugaForte) | Gestão Ágil (em grupo) | Plataforma de locação de maquinários com seguro integrado | HTML · CSS · JavaScript · Netlify |
-| [**Caixa Eletrônico em C**](https://github.com/novaishenrique/Caixa-Eletr-nico-C) | Algoritmos (projeto introdutório) | Saques com validação, saldo e troco em notas e moedas, com testes automáticos | C · GCC · Portugol |
+| [**Caixa Eletrônico em C**](https://github.com/novaishenrique/projeto-caixa-eletronico) | Algoritmos (projeto introdutório) | Saques com validação, saldo e troco em notas e moedas, com testes automáticos | C · GCC · Portugol |
 
 **Evento:** Hackathon WECTI 2026 (UNICID), na equipe do **PEEK**, uma proposta de controle de estoque inteligente e omnichannel para pequenas e médias empresas do varejo.
 
