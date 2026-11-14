@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Bem-vindo ao GitHub do Henrique" width="100%">
+<img src="assets/capa-perfil.svg" alt="Bem-vindo ao GitHub do Henrique" width="100%">
 
 <br><br>
 
