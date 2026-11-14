@@ -14,6 +14,11 @@ on:
 permissions:
   contents: write
 
+# Uma execução por vez, para duas rodadas não brigarem no push
+concurrency:
+  group: cartoes
+  cancel-in-progress: false
+
 jobs:
   gerar:
     runs-on: ubuntu-latest
@@ -36,5 +41,6 @@ jobs:
             echo "Nada mudou"
           else
             git commit -m "Atualiza os cartões de estatísticas"
+            git pull --rebase origin main
             git push
           fi
