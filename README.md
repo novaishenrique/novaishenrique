@@ -13,7 +13,7 @@
 
 <h2 align="center">👨‍💻 <i>Sobre mim</i></h2>
 
-<img align="right" src="assets/astronauta.svg" width="250" alt="Astronauta flutuando no espaço">
+<img align="right" src="assets/gestao-ti.svg" width="250" alt="Animação de Gestão da TI: painel de indicadores alimentado por dados, processos e governança">
 
 Olá! Eu sou o **Henrique Novais de Oliveira**, estudante de **Gestão da Tecnologia da Informação** na **UNICID**. Há **4 anos** nas áreas **administrativa e de logística**, com vivência em rotinas operacionais e controle de processos. Meu objetivo é unir essa prática com a TI para atuar com **inovação, otimização de processos e governança**.
 
